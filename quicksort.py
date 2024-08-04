@@ -49,3 +49,16 @@ def partition(arr, left, right):
   # Retorna o índice do pivô
   return i + 1
 
+# Descrição das Funções
+# quicksort(arr, left, right):
+
+# Ordena a lista arr no intervalo de índices left a right usando o algoritmo QuickSort.
+# Recursivamente chama a si mesma para ordenar as sublistas à esquerda e à direita do pivô.
+# partition(arr, left, right):
+
+# Realiza a partição da lista arr em relação ao elemento arr[right] (pivô).
+# Reorganiza a lista de modo que todos os elementos menores ou iguais ao pivô fiquem à esquerda dele, e todos os elementos maiores, à direita.
+# Retorna o índice do pivô após a partição.
+# Notas
+# O QuickSort é um algoritmo de ordenação com complexidade média de tempo de O(n log n), mas pode chegar a O(n²) no pior caso.
+# Este algoritmo é "in-place", o que significa que a ordenação é feita diretamente na lista original, sem necessidade de espaço adicional significativo.
